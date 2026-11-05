@@ -56,22 +56,22 @@ def svg(bytes_by_lang: Counter, repo_count: int) -> str:
     other = total - sum(v for _, v in top)
     rows = top + ([("Other", other)] if other else [])
 
-    # 1200x380 canvas: one 40px row per language plus a caption line.
+    # 1200x420 canvas: one 40px row per language (6 + Other) plus a caption line.
     parts = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" '
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" '
         'role="img" aria-label="Language distribution by bytes across public repositories">',
         "<title>Stack by bytes</title>",
-        '<rect width="1200" height="380" fill="#070B10"/>',
-        '<rect x="0.5" y="0.5" width="1199" height="379" fill="none" stroke="#16202B"/>',
+        '<rect width="1200" height="420" fill="#070B10"/>',
+        '<rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#16202B"/>',
         '<text x="64" y="60" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="12" '
         'letter-spacing="4.4" fill="#6E8398">STACK / BYTES WRITTEN</text>',
         f'<text x="1136" y="60" text-anchor="end" font-family="\'Cascadia Mono\',Consolas,monospace" '
-        f'font-size="12" letter-spacing="2" fill="#6E8398">{repo_count} REPOS · {len(bytes_by_lang)} LANGUAGES</text>',
+        f'font-size="12" letter-spacing="2" fill="#6E8398">{repo_count} REPOS SCANNED · {len(bytes_by_lang)} LANGUAGES</text>',
     ]
 
     track_x, track_w = 250, 800
     for i, (lang, n) in enumerate(rows):
-        y = 112 + i * 40
+        y = 104 + i * 40
         pct = 100 * n / total
         w = max(3.0, track_w * n / total)
         colour = RAMP[i] if i < len(RAMP) else "#4A2312"
@@ -86,8 +86,8 @@ def svg(bytes_by_lang: Counter, repo_count: int) -> str:
 
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     parts += [
-        f'<text x="64" y="352" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="10.5" '
-        f'fill="#4C5F73">snapshot {stamp} · generated from the GitHub API · refused forks</text>',
+        f'<text x="64" y="392" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="10.5" '
+        f'fill="#4C5F73">snapshot {stamp} · generated from the GitHub API · forks excluded</text>',
         "</svg>",
     ]
     return "\n".join(parts)

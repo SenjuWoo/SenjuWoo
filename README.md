@@ -39,7 +39,7 @@ I build the layer that is missing between a game engine and an AI that is suppos
 
 ## Elsewhere
 
-- **Nexus Mods** — the released mods, including [NextGen-Disk-Cache](https://www.nexusmods.com/skyrimspecialedition/mods/185563)
+- **Nexus Mods** — released mods as [GennyWoo](https://www.nexusmods.com/skyrimspecialedition/users/37128950), including [NextGen Disk Cache](https://www.nexusmods.com/skyrimspecialedition/mods/185563)
 - **Releases** — prebuilt installers and archives live on each repository's Releases page
 - **In progress** — Risk of Rain 2 Forge, RobloxForge, riggle, Minecraft-Forge
 
