@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="SenjuWoo — Skyrim SE/AE, SKSE C++, agent workbenches">
+  <title>SenjuWoo — social card</title>
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070A"/>
+      <stop offset="0.6" stop-color="#080D13"/>
+      <stop offset="1" stop-color="#0E151E"/>
+    </linearGradient>
+    <linearGradient id="sname" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F6FBFF"/>
+      <stop offset="0.60" stop-color="#DFEDF7"/>
+      <stop offset="0.70" stop-color="#FF8B4A"/>
+      <stop offset="1" stop-color="#FFC69E"/>
+    </linearGradient>
+    <linearGradient id="srule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF7A33" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF7A33"/>
+      <stop offset="1" stop-color="#FF7A33" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A33" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#C4461B" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#C4461B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="sgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#7FB4D8" stroke-width="1" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#sbg)"/>
+  <rect width="1280" height="640" fill="url(#sgrid)"/>
+  <ellipse cx="640" cy="320" rx="520" ry="330" fill="url(#sglow)"/>
+
+  <g fill="none" stroke="#FF7A33" stroke-width="1.6" stroke-opacity="0.5">
+    <path d="M42 82V42H82"/>
+    <path d="M1238 42H1198V82"/>
+    <path d="M42 558V598H82"/>
+    <path d="M1238 598H1198V558"/>
+  </g>
+
+  <g text-anchor="middle" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace">
+    <text x="640" y="180" font-size="13" letter-spacing="5.5" fill="#6E8398">// THE FORGE IS THE PRODUCT</text>
+    <text x="632" y="352" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="150"
+          font-weight="800" letter-spacing="-5" fill="url(#sname)">SENJUWOO</text>
+    <text x="640" y="452" font-size="20" fill="#93A7BB">Skyrim SE/AE · SKSE C++ · agent workbenches · Windows tools</text>
+    <text x="640" y="492" font-size="15" fill="#5D7186">native code, typed tools, no hand-waving</text>
+  </g>
+
+  <rect x="470" y="386" width="340" height="2" fill="url(#srule)"/>
+
+  <g transform="translate(640 552)" fill="none" stroke="#FF7A33" stroke-width="1.2" stroke-opacity="0.28">
+    <path d="M0 -26 L23 -13 L23 13 L0 26 L-23 13 L-23 -13 Z" fill="#FF7A33" fill-opacity="0.07"/>
+    <circle r="2.5" fill="#FF7A33" stroke="none"/>
+  </g>
+</svg>
