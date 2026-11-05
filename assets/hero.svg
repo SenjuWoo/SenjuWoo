@@ -2,39 +2,48 @@
   <title>SenjuWoo</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05070A"/>
-      <stop offset="0.55" stop-color="#080D13"/>
-      <stop offset="1" stop-color="#0D141C"/>
+      <stop offset="0" stop-color="#080306"/>
+      <stop offset="0.55" stop-color="#11060B"/>
+      <stop offset="1" stop-color="#1A0710"/>
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F6FBFF"/>
-      <stop offset="0.60" stop-color="#DFEDF7"/>
-      <stop offset="0.68" stop-color="#FF8B4A"/>
-      <stop offset="1" stop-color="#FFC69E"/>
+      <stop offset="0" stop-color="#FFF8F1"/>
+      <stop offset="0.58" stop-color="#F3D9C9"/>
+      <stop offset="0.655" stop-color="#C9283F"/>
+      <stop offset="0.735" stop-color="#D8314B"/>
+      <stop offset="0.855" stop-color="#FFB627"/>
+      <stop offset="1" stop-color="#FFD98A"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF7A33"/>
-      <stop offset="1" stop-color="#FF7A33" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFB627"/>
+      <stop offset="0.55" stop-color="#D8314B"/>
+      <stop offset="1" stop-color="#D8314B" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8FD3FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#8FD3FF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#8FD3FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFE9C4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFE9C4" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFE9C4" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#FF7A33" stop-opacity="0.26"/>
-      <stop offset="0.55" stop-color="#C4461B" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#C4461B" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFB627" stop-opacity="0.20"/>
+      <stop offset="0.42" stop-color="#C2263F" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5E0A1C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFBF0"/>
+      <stop offset="0.30" stop-color="#FFD35C"/>
+      <stop offset="0.62" stop-color="#FFB627" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFB627" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#7FB4D8" stroke-width="1" stroke-opacity="0.055"/>
+      <path d="M24 0H0V24" fill="none" stroke="#FF8FA6" stroke-width="1" stroke-opacity="0.05"/>
     </pattern>
   </defs>
 
   <!-- base surfaces -->
   <rect width="1200" height="320" fill="url(#bg)"/>
   <rect width="1200" height="320" fill="url(#grid)"/>
-  <ellipse cx="1000" cy="158" rx="300" ry="210" fill="url(#glow)"/>
+  <ellipse cx="1010" cy="158" rx="310" ry="215" fill="url(#glow)"/>
 
   <!-- one slow light pass, so the banner feels alive without noise -->
   <g opacity="0.9">
@@ -44,7 +53,7 @@
   </g>
 
   <!-- corner brackets: blueprint framing -->
-  <g fill="none" stroke="#FF7A33" stroke-width="1.6" stroke-opacity="0.55">
+  <g fill="none" stroke="#FFB627" stroke-width="1.6" stroke-opacity="0.55">
     <path d="M26 58V26H58"/>
     <path d="M1174 26H1142V58"/>
     <path d="M26 262V294H58"/>
@@ -52,50 +61,49 @@
   </g>
 
   <!-- left: identity -->
-  <text x="66" y="78" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="11.5" letter-spacing="4.6" fill="#6E8398">// THE FORGE IS THE PRODUCT</text>
+  <text x="66" y="78" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="11.5" letter-spacing="4.6" fill="#A8879A">// SYNTHETIC MIND · REAL RECEIPTS</text>
 
   <text x="62" y="200" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="126" font-weight="800" letter-spacing="-3.5" fill="url(#name)">SENJUWOO</text>
 
   <rect x="66" y="218" width="210" height="2.5" fill="url(#rule)"/>
 
-  <text x="66" y="252" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="16" fill="#93A7BB">Skyrim SE/AE · SKSE C++ · agent workbenches · Windows tools</text>
+  <text x="66" y="252" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="16" fill="#C7A9B4">Skyrim SE/AE · SKSE C++ · agent workbenches · Windows tools</text>
 
-  <text x="66" y="282" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="13" fill="#5D7186">native code, typed tools, no hand-waving</text>
+  <text x="66" y="282" font-family="'Cascadia Mono','SF Mono',Consolas,ui-monospace,monospace" font-size="13" fill="#7C6270">native code, typed tools, no hand-waving</text>
 
-  <!-- right: constellation node, the mark -->
+  <!-- right: the solar jewel, cut in six -->
   <g transform="translate(1030 160)">
-    <g fill="none" stroke="#FF7A33" stroke-opacity="0.38" stroke-width="1.3">
-      <path d="M0 -96 L84 -48 L84 48 L0 96 L-84 48 L-84 -48 Z"/>
-      <path d="M0 -54 L47 -27 L47 27 L0 54 L-47 27 L-47 -27 Z" stroke="#8FD3FF" stroke-opacity="0.16"/>
+    <path d="M0 -96 L83 -48 L83 48 L0 96 L-83 48 L-83 -48 Z" fill="none" stroke="#FFB627" stroke-opacity="0.50" stroke-width="1.3"/>
+    <path d="M0 -46 L40 -23 L40 23 L0 46 L-40 23 L-40 -23 Z" fill="#D8314B" fill-opacity="0.10" stroke="#D8314B" stroke-opacity="0.55" stroke-width="1.1"/>
+    <path d="M0 -96 L0 -46 M83 -48 L40 -23 M83 48 L40 23 M0 96 L0 46 M-83 48 L-40 23 M-83 -48 L-40 -23" fill="none" stroke="#D8314B" stroke-opacity="0.50" stroke-width="1"/>
+    <g fill="#FFD98A">
+      <circle cx="0" cy="-96" r="2.8"/>
+      <circle cx="83" cy="-48" r="2.8"/>
+      <circle cx="83" cy="48" r="2.8"/>
+      <circle cx="0" cy="96" r="2.8"/>
+      <circle cx="-83" cy="48" r="2.8"/>
+      <circle cx="-83" cy="-48" r="2.8"/>
     </g>
-    <g fill="#FFC08C">
-      <circle cx="0" cy="-96" r="3"/>
-      <circle cx="84" cy="-48" r="3"/>
-      <circle cx="84" cy="48" r="3"/>
-      <circle cx="0" cy="96" r="3"/>
-      <circle cx="-84" cy="48" r="3"/>
-      <circle cx="-84" cy="-48" r="3"/>
-    </g>
-    <circle r="4" fill="#FF7A33">
-      <animate attributeName="r" values="3;5.5;3" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/>
+    <circle r="34" fill="url(#core)">
+      <animate attributeName="r" values="28;40;28" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="4.6s" repeatCount="indefinite"/>
     </circle>
-    <circle r="26" fill="#FF7A33" opacity="0.09">
-      <animate attributeName="r" values="18;34;18" dur="4s" repeatCount="indefinite"/>
+    <circle r="5" fill="#FFFDF6">
+      <animate attributeName="r" values="4;6;4" dur="4.6s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- rising sparks above the node -->
-  <g fill="#FFB27A">
-    <circle cx="1114" cy="238" r="1.6" opacity="0">
+  <!-- rising motes above the jewel -->
+  <g fill="#FFD98A">
+    <circle cx="1116" cy="238" r="1.6" opacity="0">
       <animate attributeName="cy" values="246;96" dur="7s" repeatCount="indefinite" begin="0s"/>
       <animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite" begin="0s"/>
     </circle>
-    <circle cx="1130" cy="238" r="1.2" opacity="0">
+    <circle cx="1132" cy="238" r="1.2" opacity="0">
       <animate attributeName="cy" values="250;118" dur="9s" repeatCount="indefinite" begin="2.4s"/>
       <animate attributeName="opacity" values="0;0.7;0" dur="9s" repeatCount="indefinite" begin="2.4s"/>
     </circle>
-    <circle cx="1097" cy="238" r="1.4" opacity="0">
+    <circle cx="1099" cy="238" r="1.4" opacity="0">
       <animate attributeName="cy" values="244;132" dur="8s" repeatCount="indefinite" begin="4.8s"/>
       <animate attributeName="opacity" values="0;0.75;0" dur="8s" repeatCount="indefinite" begin="4.8s"/>
     </circle>

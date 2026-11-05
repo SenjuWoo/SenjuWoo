@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Language distribution by bytes across public repositories">
 <title>Stack by bytes</title>
-<rect width="1200" height="420" fill="#070B10"/>
-<rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#16202B"/>
-<text x="64" y="60" font-family="'Cascadia Mono',Consolas,monospace" font-size="12" letter-spacing="4.4" fill="#6E8398">STACK / BYTES WRITTEN</text>
-<text x="1136" y="60" text-anchor="end" font-family="'Cascadia Mono',Consolas,monospace" font-size="12" letter-spacing="2" fill="#6E8398">41 REPOS SCANNED · 22 LANGUAGES</text>
-<text x="64" y="116" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">Python</text>
-<rect x="250" y="104" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="104" width="268.0" height="14" rx="3" fill="#FF7A33"/>
-<text x="1074" y="116" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8">33.5%</text>
-<text x="64" y="156" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">JavaScript</text>
-<rect x="250" y="144" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="144" width="249.0" height="14" rx="3" fill="#F26A2C"/>
-<text x="1074" y="156" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8">31.1%</text>
-<text x="64" y="196" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">C#</text>
-<rect x="250" y="184" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="184" width="195.8" height="14" rx="3" fill="#D8571F"/>
-<text x="1074" y="196" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8">24.5%</text>
-<text x="64" y="236" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">PowerShell</text>
-<rect x="250" y="224" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="224" width="32.3" height="14" rx="3" fill="#B04618"/>
-<text x="1074" y="236" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8"> 4.0%</text>
-<text x="64" y="276" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">C++</text>
-<rect x="250" y="264" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="264" width="15.2" height="14" rx="3" fill="#8A3714"/>
-<text x="1074" y="276" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8"> 1.9%</text>
-<text x="64" y="316" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#DCE9F3">HTML</text>
-<rect x="250" y="304" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="304" width="11.1" height="14" rx="3" fill="#642811"/>
-<text x="1074" y="316" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8"> 1.4%</text>
-<text x="64" y="356" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#5D7186">Other</text>
-<rect x="250" y="344" width="800" height="14" rx="3" fill="#101923"/>
-<rect x="250" y="344" width="28.6" height="14" rx="3" fill="#4A2312"/>
-<text x="1074" y="356" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#8FA3B8"> 3.6%</text>
-<text x="64" y="392" font-family="'Cascadia Mono',Consolas,monospace" font-size="10.5" fill="#4C5F73">snapshot 2026-11-05 · generated from the GitHub API · forks excluded</text>
+<rect width="1200" height="420" fill="#0A0407"/>
+<rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#2A1520"/>
+<text x="64" y="60" font-family="'Cascadia Mono',Consolas,monospace" font-size="12" letter-spacing="4.4" fill="#A8879A">STACK / BYTES WRITTEN</text>
+<text x="1136" y="60" text-anchor="end" font-family="'Cascadia Mono',Consolas,monospace" font-size="12" letter-spacing="2" fill="#A8879A">41 REPOS SCANNED · 22 LANGUAGES</text>
+<text x="64" y="116" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">Python</text>
+<rect x="250" y="104" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="104" width="268.0" height="14" rx="3" fill="#FFC24A"/>
+<text x="1074" y="116" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA">33.5%</text>
+<text x="64" y="156" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">JavaScript</text>
+<rect x="250" y="144" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="144" width="249.0" height="14" rx="3" fill="#F2A63C"/>
+<text x="1074" y="156" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA">31.1%</text>
+<text x="64" y="196" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">C#</text>
+<rect x="250" y="184" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="184" width="195.8" height="14" rx="3" fill="#DE8A34"/>
+<text x="1074" y="196" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA">24.5%</text>
+<text x="64" y="236" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">PowerShell</text>
+<rect x="250" y="224" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="224" width="32.3" height="14" rx="3" fill="#C96B32"/>
+<text x="1074" y="236" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA"> 4.0%</text>
+<text x="64" y="276" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">C++</text>
+<rect x="250" y="264" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="264" width="15.2" height="14" rx="3" fill="#B34E38"/>
+<text x="1074" y="276" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA"> 1.9%</text>
+<text x="64" y="316" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#F6E7D8">HTML</text>
+<rect x="250" y="304" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="304" width="11.1" height="14" rx="3" fill="#963C42"/>
+<text x="1074" y="316" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA"> 1.4%</text>
+<text x="64" y="356" font-family="'Cascadia Mono',Consolas,monospace" font-size="15" fill="#8A6F7C">Other</text>
+<rect x="250" y="344" width="800" height="14" rx="3" fill="#1B0C12"/>
+<rect x="250" y="344" width="28.6" height="14" rx="3" fill="#6E2A32"/>
+<text x="1074" y="356" font-family="'Cascadia Mono',Consolas,monospace" font-size="14" fill="#C9AEBA"> 3.6%</text>
+<text x="64" y="392" font-family="'Cascadia Mono',Consolas,monospace" font-size="10.5" fill="#7C6270">snapshot 2026-11-05 · generated from the GitHub API · forks excluded</text>
 </svg>

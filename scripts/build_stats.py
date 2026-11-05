@@ -18,11 +18,11 @@ from xml.sax.saxutils import escape
 USER = "SenjuWoo"
 TOP_N = 6
 
-# Ember ramp: the biggest language is the hottest. Deliberately one hue so the
+# Solar ramp: gold at the core, crimson at the edge. Deliberately one hue so the
 # panel reads as a ranked chart, not a colour salad.
-RAMP = ["#FF7A33", "#F26A2C", "#D8571F", "#B04618", "#8A3714", "#642811"]
-DIM = "#5D7186"
-STEEL = "#DCE9F3"
+RAMP = ["#FFC24A", "#F2A63C", "#DE8A34", "#C96B32", "#B34E38", "#963C42"]
+DIM = "#8A6F7C"
+STEEL = "#F6E7D8"
 
 
 def gh(path: str) -> object:
@@ -61,12 +61,12 @@ def svg(bytes_by_lang: Counter, repo_count: int) -> str:
         '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" '
         'role="img" aria-label="Language distribution by bytes across public repositories">',
         "<title>Stack by bytes</title>",
-        '<rect width="1200" height="420" fill="#070B10"/>',
-        '<rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#16202B"/>',
+        '<rect width="1200" height="420" fill="#0A0407"/>',
+        '<rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#2A1520"/>',
         '<text x="64" y="60" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="12" '
-        'letter-spacing="4.4" fill="#6E8398">STACK / BYTES WRITTEN</text>',
+        'letter-spacing="4.4" fill="#A8879A">STACK / BYTES WRITTEN</text>',
         f'<text x="1136" y="60" text-anchor="end" font-family="\'Cascadia Mono\',Consolas,monospace" '
-        f'font-size="12" letter-spacing="2" fill="#6E8398">{repo_count} REPOS SCANNED · {len(bytes_by_lang)} LANGUAGES</text>',
+        f'font-size="12" letter-spacing="2" fill="#A8879A">{repo_count} REPOS SCANNED · {len(bytes_by_lang)} LANGUAGES</text>',
     ]
 
     track_x, track_w = 250, 800
@@ -74,20 +74,20 @@ def svg(bytes_by_lang: Counter, repo_count: int) -> str:
         y = 104 + i * 40
         pct = 100 * n / total
         w = max(3.0, track_w * n / total)
-        colour = RAMP[i] if i < len(RAMP) else "#4A2312"
+        colour = RAMP[i] if i < len(RAMP) else "#6E2A32"
         parts += [
             f'<text x="64" y="{y + 12}" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="15" '
             f'fill="{STEEL if i < TOP_N else DIM}">{escape(lang)}</text>',
-            f'<rect x="{track_x}" y="{y}" width="{track_w}" height="14" rx="3" fill="#101923"/>',
+            f'<rect x="{track_x}" y="{y}" width="{track_w}" height="14" rx="3" fill="#1B0C12"/>',
             f'<rect x="{track_x}" y="{y}" width="{w:.1f}" height="14" rx="3" fill="{colour}"/>',
             f'<text x="{track_x + track_w + 24}" y="{y + 12}" font-family="\'Cascadia Mono\',Consolas,monospace" '
-            f'font-size="14" fill="#8FA3B8">{pct:4.1f}%</text>',
+            f'font-size="14" fill="#C9AEBA">{pct:4.1f}%</text>',
         ]
 
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     parts += [
         f'<text x="64" y="392" font-family="\'Cascadia Mono\',Consolas,monospace" font-size="10.5" '
-        f'fill="#4C5F73">snapshot {stamp} · generated from the GitHub API · forks excluded</text>',
+        f'fill="#7C6270">snapshot {stamp} · generated from the GitHub API · forks excluded</text>',
         "</svg>",
     ]
     return "\n".join(parts)

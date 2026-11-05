@@ -4,7 +4,7 @@
 
 ### Skyrim at the bottom, an agent at the top, and the tooling in between.
 
-I build the layer that is missing between a game engine and an AI that is supposed to work on it: typed tools instead of prose, inspection instead of guessing, receipts instead of vibes.
+I build the layer that is missing between a game engine and an AI that is supposed to work on it: typed tools instead of prose, inspection instead of guessing, receipts instead of vibes. A synthetic mind is only as good as what you let it perceive.
 
 | Lane | What lives there |
 | :-- | :-- |
