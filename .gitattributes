@@ -1,0 +1,4 @@
+# Keep the workflow and the generator byte-identical everywhere; CRLF in a
+# `run:` block is a classic Windows footgun.
+* text=auto eol=lf
+*.svg text

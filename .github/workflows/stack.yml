@@ -1,0 +1,33 @@
+name: refresh stack panel
+
+# Keeps assets/stack.svg honest without anyone remembering to run it.
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate language panel
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_stats.py assets/stack.svg
+
+      - name: Commit if the numbers moved
+        run: |
+          if [ -n "$(git status --porcelain assets/stack.svg)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/stack.svg
+            git commit -m "chore: refresh stack panel"
+            git push
+          else
+            echo "no change"
+          fi
