@@ -1,0 +1,9 @@
+[
+  { "name": "SenjuWoo", "tagline": "Skyrim SE/AE  ·  SKSE C++  ·  agent workbenches  ·  Windows tools", "lane": "games", "kicker": "KINJURA  ·  CREATOR" },
+  { "name": "Ultimate AI Starter Bundle", "tagline": "Skills, MCP servers and plugins for every agent, plus a Skyrim modding stack", "lane": "ai" },
+  { "name": "SkyrimForge", "tagline": "Safety-first typed automation workbench and MCP server for Skyrim SE/AE", "lane": "forge" },
+  { "name": "NextGen Disk Cache", "tagline": "Learns what the game reads at load, then prefetches it on the next launch", "lane": "native" },
+  { "name": "FollowerForge", "tagline": "Custom Skyrim followers without the Creation Kit", "lane": "forge" },
+  { "name": "FaceForge", "tagline": "Photo to RaceMenu preset, measured and High Poly Head aware", "lane": "forge" },
+  { "name": "dlss5-aio", "tagline": "DLSS 5 DLLs, neural runtime and a swapper for any game", "lane": "app" }
+]

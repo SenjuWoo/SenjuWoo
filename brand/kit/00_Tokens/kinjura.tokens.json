@@ -1,0 +1,57 @@
+{
+  "name": "KINJURA",
+  "katakana": "キンジュラ",
+  "tagline": "Games · Worlds · Tools · Creations",
+  "color": {
+    "void": "#0B0B10",
+    "voidRaised": "#15151D",
+    "voidLine": "#2A2A36",
+    "crimson": "#D12F3F",
+    "crimsonLight": "#FF5A69",
+    "crimsonDark": "#8E1626",
+    "ivory": "#F2E7DC",
+    "steel": "#C9C4CF",
+    "ash": "#9A94A3",
+    "aurum": "#D9B46B",
+    "aether": "#8B70E8",
+    "mist": "#6FA0C8"
+  },
+  "lanes": {
+    "games": {
+      "label": "GAMES & MODS",
+      "accent": "#D12F3F",
+      "light": "#FF5A69"
+    },
+    "forge": {
+      "label": "FORGE WORKBENCH",
+      "accent": "#8B70E8",
+      "light": "#B9A6FF"
+    },
+    "native": {
+      "label": "NATIVE PLUGIN",
+      "accent": "#D9B46B",
+      "light": "#F2CF83"
+    },
+    "app": {
+      "label": "WINDOWS APP",
+      "accent": "#6FA0C8",
+      "light": "#A9CBE6"
+    },
+    "ai": {
+      "label": "AGENT TOOLING",
+      "accent": "#8B70E8",
+      "light": "#B9A6FF"
+    },
+    "release": {
+      "label": "RELEASE",
+      "accent": "#D9B46B",
+      "light": "#F2CF83"
+    }
+  },
+  "type": {
+    "display": "Orbitron (OFL)",
+    "body": "Exo 2 (OFL)",
+    "japanese": "Noto Sans JP (OFL)",
+    "wordmark": "custom geometry, not a font"
+  }
+}

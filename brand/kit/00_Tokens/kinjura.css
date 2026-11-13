@@ -1,0 +1,19 @@
+/* KINJURA design tokens */
+:root {
+  --kj-void: #0B0B10;
+  --kj-void-raised: #15151D;
+  --kj-void-line: #2A2A36;
+  --kj-crimson: #D12F3F;
+  --kj-crimson-light: #FF5A69;
+  --kj-crimson-dark: #8E1626;
+  --kj-ivory: #F2E7DC;
+  --kj-steel: #C9C4CF;
+  --kj-ash: #9A94A3;
+  --kj-aurum: #D9B46B;
+  --kj-aether: #8B70E8;
+  --kj-mist: #6FA0C8;
+  --kj-font-display: 'Orbitron', 'Exo 2', system-ui, sans-serif;
+  --kj-font-body: 'Exo 2', system-ui, sans-serif;
+  --kj-font-jp: 'Noto Sans JP', sans-serif;
+  --kj-tracking-wide: 0.42em;
+}
