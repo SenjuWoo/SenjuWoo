@@ -54,7 +54,7 @@ I build the layer that is missing between a game engine and an AI that is suppos
 - **[AvatarForge](https://github.com/SenjuWoo/AvatarForge)**: Blender, XPS, MMD, VRM and Source models to VRChat avatars.
 - **[pbp-studio](https://github.com/SenjuWoo/pbp-studio)**: local AI character maker for Castle Crashers.
 - **[Woo-Force-Next](https://github.com/SenjuWoo/Woo-Force-Next)**: AI brain for Ikemen GO fighters.
-- **[monstrum-codex-infinite](https://github.com/SenjuWoo/monstrum-codex-infinite)**, **[ImmersiveWorlds](https://github.com/SenjuWoo/ImmersiveWorlds)**, **[SillyTavern-LocalSearch](https://github.com/SenjuWoo/SillyTavern-LocalSearch)**, **[ai-prompt-library](https://github.com/SenjuWoo/ai-prompt-library)**: local-first creative tools and prompt suites.
+- **[monstrum-codex-infinite](https://github.com/SenjuWoo/monstrum-codex-infinite)**, **[ImmersiveWorlds](https://github.com/SenjuWoo/ImmersiveWorlds)**, **[SillyTavern-LocalSearch](https://github.com/SenjuWoo/SillyTavern-LocalSearch)**: local-first creative tools.
 </details>
 
 <details>
@@ -71,7 +71,7 @@ I build the layer that is missing between a game engine and an AI that is suppos
 
 - **[windows-pc-toolkit](https://github.com/SenjuWoo/windows-pc-toolkit)**: gaming, debloat, cleanup, privacy and repair dashboard.
 - **[Cephalon-Cuda](https://github.com/SenjuWoo/Cephalon-Cuda)** (Warframe) and **[Cuda-Spirit](https://github.com/SenjuWoo/Cuda-Spirit)** (Black Desert): decision cockpits for returning players.
-- **[BDO-AIO](https://github.com/SenjuWoo/BDO-AIO)**, **[BDO-TEX-AIO](https://github.com/SenjuWoo/BDO-TEX-AIO)**, **[FaceForge-BDO](https://github.com/SenjuWoo/FaceForge-BDO)**, **[bdo-wardrobe](https://github.com/SenjuWoo/bdo-wardrobe)**: the Black Desert set.
+- **[BDO-AIO](https://github.com/SenjuWoo/BDO-AIO)**, **[BDO-TEX-AIO](https://github.com/SenjuWoo/BDO-TEX-AIO)**, **[bdo-wardrobe](https://github.com/SenjuWoo/bdo-wardrobe)**: the Black Desert set.
 - **[LosslessScaling-DLSS5-Preset](https://github.com/SenjuWoo/LosslessScaling-DLSS5-Preset)**, **[bonsai2-lmstudio-fix](https://github.com/SenjuWoo/bonsai2-lmstudio-fix)**, **[rtxhdr-guard](https://github.com/SenjuWoo/rtxhdr-guard)**, **[RAGE-Emblem-Codec](https://github.com/SenjuWoo/RAGE-Emblem-Codec)**.
 - **[Opera-GX-Extensions](https://github.com/SenjuWoo/Opera-GX-Extensions)**: Nexus research tools and Opera GX companions.
 - **[MSN2-CommunityPatch](https://github.com/SenjuWoo/MSN2-CommunityPatch)**, **[gta5-enhanced-woo-pack](https://github.com/SenjuWoo/gta5-enhanced-woo-pack)**, **[naruto-storm4-modpack](https://github.com/SenjuWoo/naruto-storm4-modpack)**: game patches and packs.
